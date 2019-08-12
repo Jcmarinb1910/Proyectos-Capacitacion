@@ -9,9 +9,9 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import mx.com.walmart.compra.capacitacion.models.DetalleArticu;
 import mx.com.walmart.compra.capacitacion.questions.VerificarProducto;
 import mx.com.walmart.compra.capacitacion.task.BuscarProducto;
-import mx.com.walmart.compra.capacitacion.task.EncontrarProducto;
 import mx.com.walmart.compra.capacitacion.task.OpenTheBrowser;
 import mx.com.walmart.compra.capacitacion.userinterfaces.InfarmaHomePage;
 import net.serenitybdd.screenplay.Actor;
@@ -24,39 +24,31 @@ public class CompraWalmartStepDefinitions {
 	@Managed(driver = "chrome")
 	private WebDriver SuNavegador;
 	private Actor Jonathan = Actor.named("jonathan");
-	InfarmaHomePage  walmartHome;
+	InfarmaHomePage  inkafarmaHome;
 	
 	
 	
 	@Before
 	public void setU() {
-		Jonathan.can(BrowseTheWeb.with(SuNavegador));
-		SuNavegador.manage().window().maximize();
-		
+		Jonathan.can(BrowseTheWeb.with(SuNavegador));		
 	}
 	
 	
-	@Given("^Jonathan quiere hacer una compra online$")
+	@Given("^que Jonathan esta en la Pagina Inkafarma de Peru$")
 	public void jonathanQuiereHacerUnaCompraOnline() throws Exception {
-		Jonathan.wasAbleTo(OpenTheBrowser.on());
-		
-		
-	    
+		Jonathan.wasAbleTo(OpenTheBrowser.on(inkafarmaHome));	    
 	}
 
 
-	@When("^el quiere comprar en la pagina Walmart de Mexico$")
-	public void elQuiereComprarEnLaPaginaWalmartDeMexico() throws Exception {
-	   Jonathan.wasAbleTo(BuscarProducto.on());
-	   Jonathan.wasAbleTo(EncontrarProducto.on());
-	    
+	@When("^el quiere buscar el \"([^\"]*)\" y comprarlo en la pagina$")
+	public void elQuiereBuscarElYComprarloEnLaPagina(DetalleArticu Producto) throws Exception {
+		Jonathan.wasAbleTo(BuscarProducto.the(Producto));	
 	}
 
-	@Then("^para mirar el articulo en carrito de compras$")
-	public void paraMirarElArticuloEnCarritoDeCompras() throws Exception {
-	   Jonathan.should(seeThat(VerificarProducto.visualized(),Matchers.equalTo("Desodorante Spray Savital Sábila\n" + "(Frasco de 150ml)")));
+
+	@Then("^deberia de ver el articulo en carrito de compras$")
+	public void paraMirarElArticuloEnCarritoDeCompras(String articulo) throws Exception {
+		Jonathan.should(seeThat(VerificarProducto.visualized(),Matchers.equalTo(articulo)));
     }
-
-
 
 }

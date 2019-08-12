@@ -18,7 +18,7 @@ public class OpenTheBrowser implements Task {
 		
 	}
 
-	public static OpenTheBrowser on() {
+	public static OpenTheBrowser on(InfarmaHomePage walmartHome) {
 		return instrumented(OpenTheBrowser.class);
 		
 	}
