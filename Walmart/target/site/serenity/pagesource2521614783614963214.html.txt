@@ -1,0 +1,1872 @@
+<html lang="es"><head><style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style><style type="text/css">.uib-time input{width:50px;}</style><style type="text/css">[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style><style type="text/css">.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style><style type="text/css">.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}</style><style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="UTF-8">
+    <base href="/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Inkafarma: Más salud al mejor precio</title>
+    <meta name="description" content="Compra por internet medicina y productos para tu cuidado personal. Descubre los mejores precios y promociones exclusivas. Delivery en varios puntos de Lima, consulta nuestra zona de cobertura">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="google-site-verification" content="UNWynlpAxb83QwGDp2KVkgpitq7lPT6pMi2geDxDuCY">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,100,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/8bd9fb45.bundle.css">
+
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-59P23D5"></script><script src="https://connect.facebook.net/signals/config/1356038847764214?v=2.9.2&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script src="https://maps.google.com/maps/api/js?libraries=placeses,visualization,drawing,geometry,places&amp;key=AIzaSyC2fWm7Vfph5CCXorWQnFqepO8emsycHPc&amp;region=PE"></script>
+
+    <!-- ONE SIGNAL CODE -->
+
+    <link rel="manifest" href="/manifest.json">
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="async"></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1356038847764214');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=1356038847764214&ev=PageView&noscript=1">
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-59P23D5');</script>
+    <!-- End Google Tag Manager -->
+    <meta name="theme-color" content="false">
+<script src="https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=150706" async=""></script><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/837330867/?random=1565624918512&amp;cv=9&amp;fst=1565624918512&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=2&amp;u_tz=-300&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg7v2&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Finkafarma.pe%2F&amp;tiba=Inkafarma%3A%20M%C3%A1s%20salud%20al%20mejor%20precio&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><script type="text/javascript" charset="UTF-8" src="https://maps.google.com/maps-api-v3/api/js/37/10a/intl/es_ALL/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.google.com/maps-api-v3/api/js/37/10a/intl/es_ALL/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.google.com/maps-api-v3/api/js/37/10a/intl/es_ALL/geocoder.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps%3A%2F%2Finkafarma.pe%2F&amp;4sAIzaSyC2fWm7Vfph5CCXorWQnFqepO8emsycHPc&amp;callback=_xdc_._uw2o0p&amp;key=AIzaSyC2fWm7Vfph5CCXorWQnFqepO8emsycHPc&amp;token=110525"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps/api/js/GeocodeService.Search?5m2&amp;1d6.217696999999999&amp;2d-75.57997089999998&amp;7sPE&amp;9ses-ES&amp;callback=_xdc_._b93fd6&amp;key=AIzaSyC2fWm7Vfph5CCXorWQnFqepO8emsycHPc&amp;token=130202"></script><link rel="stylesheet" href="https://onesignal.com/sdks/OneSignalSDKStyles.css?v=1"></head>
+
+<body ng-app="App" style="" class="ng-scope">
+<div ng-controller="MainCtrl" ng-cloack="" class="ng-scope">
+
+    <!-- ngIf: loadingSpinner -->
+
+    <section class="wrapper">
+        <!-- Add your site or application content here -->
+        <!-- ngView: --><div ng-view="" class="ng-scope" style=""><div class="container-fluid ng-scope">
+    <div class="dashboard-container">
+
+        <main-header><div class="header">
+    <header>
+        <!-- Navbar information -->
+        <header-information><nav class="navbar header-information no-margin hidden-xs" role="navigation" style="">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-md-8 col-lg-7 no-padding header-links" ng-init="dynamicConfigurationStyle()">
+                <a class="drugstore-link" ng-href="https://www.inkafarma.com.pe/contactanos/ubica-tu-botica" target="_blank" href="https://www.inkafarma.com.pe/contactanos/ubica-tu-botica">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" class="image-icon replaced-svg">
+    <path fill="#0EAC53" fill-rule="nonzero" d="M7.8 4.2H12v3.6H7.8V12H4.2V7.8H0V4.2h4.2V0h3.6v4.2z"></path>
+</svg>
+                    <span>Boticas</span>
+                </a>
+                <span class="text-gray font-light font-20 separator-information first-separator">|</span>
+
+                <a class="drugstore-link" ng-href="https://www.inkafarma.com.pe/contactanos/delivery" target="_blank" href="https://www.inkafarma.com.pe/contactanos/delivery">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" class="image-icon replaced-svg">
+    <g fill="#0EAC53" fill-rule="nonzero">
+        <path d="M14.929 6.462c-.044 0-.087.001-.13.003L14.26 4.81a2.432 2.432 0 0 0 2.025-2.387A2.436 2.436 0 0 0 13.843 0h-3.366a.811.811 0 0 0-.814.808c0 .446.364.807.814.807h1.036l1.399 4.308H1.982a.811.811 0 0 0-.815.808c0 .264.129.498.327.645A4.02 4.02 0 0 0 0 10.5c0 .385.271.706.634.787A3.528 3.528 0 0 0 4.07 14a3.528 3.528 0 0 0 3.438-2.713.809.809 0 0 0 .634-.787 4.04 4.04 0 0 0-.005-.206l2.83-.723c-.072.298-.11.61-.11.929 0 .385.27.706.633.787A3.528 3.528 0 0 0 14.93 14a3.528 3.528 0 0 0 3.437-2.713A.809.809 0 0 0 19 10.5c0-2.227-1.826-4.038-4.071-4.038zM4.07 12.385c-1.047 0-1.9-.846-1.9-1.885 0-1.04.853-1.885 1.9-1.885 1.048 0 1.9.846 1.9 1.885 0 1.04-.852 1.885-1.9 1.885zm10.858 0c-1.048 0-1.9-.846-1.9-1.885a1.89 1.89 0 0 1 1.315-1.793l.223-.057a1.895 1.895 0 0 1 2.261 1.85c0 1.04-.852 1.885-1.9 1.885z"></path>
+        <path d="M1.982 2.154a.811.811 0 0 0-.815.808c0 .446.365.807.815.807h3.257c.45 0 .814-.361.814-.807a.811.811 0 0 0-.814-.808H1.982z"></path>
+    </g>
+</svg>
+                    <span>Call Center</span>
+                </a>
+                <span class="text-gray font-light font-20 separator-information first-separator">|</span>
+                <div class="delivery-information p-relative">
+                    <div class="delivery-phone cursor">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" class="image-icon replaced-svg">
+    <path fill="#0EAC53" fill-rule="evenodd" d="M13.937 11.159l-.07-.21c-.165-.49-.705-1.002-1.203-1.136l-1.84-.503c-.498-.135-1.21.047-1.574.412l-.666.666a7.064 7.064 0 0 1-4.97-4.97l.666-.666c.365-.365.548-1.076.412-1.575l-.501-1.84C4.055.837 3.543.297 3.053.133l-.21-.07C2.353-.1 1.653.065 1.288.43l-.996.996c-.178.177-.291.684-.291.685a11.757 11.757 0 0 0 11.86 11.887c.016 0 .537-.112.715-.289l.995-.995c.364-.364.53-1.065.366-1.555z"></path>
+</svg>
+                        <span class="ng-binding">Atención al Cliente </span>
+                        <span class="font-semi-bold ng-binding"> (01) 314 2020</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" class="image-icon icon-arrow replaced-svg">
+    <path fill="none" fill-rule="evenodd" stroke="#0EAC53" stroke-width="2.1" d="M14.228 1.364L7.864 7.728 1.5 1.364" style="fill: none;"></path>
+</svg>
+                    </div>
+                    <div class="delivery-numbers row">
+                        <hr>
+                        <!-- ngRepeat: item in deliveryNumbers --><div class="col-xs-12 numbers-item cursor ng-scope font-semi-bold" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)" style="">
+                            <div class="col-xs-5 ng-binding">Atención al Cliente</div>
+                            <div class="col-xs-7 text-right ng-binding">(01) 314 2020</div>
+                        </div><!-- end ngRepeat: item in deliveryNumbers --><div class="col-xs-12 numbers-item cursor ng-scope" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)" style="">
+                            <div class="col-xs-5 ng-binding">Lima</div>
+                            <div class="col-xs-7 text-right ng-binding">(01) 314 2020</div>
+                        </div><!-- end ngRepeat: item in deliveryNumbers --><div class="col-xs-12 numbers-item cursor ng-scope" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)">
+                            <div class="col-xs-5 ng-binding">Chiclayo</div>
+                            <div class="col-xs-7 text-right ng-binding">(074) 208648</div>
+                        </div><!-- end ngRepeat: item in deliveryNumbers --><div class="col-xs-12 numbers-item cursor ng-scope" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)">
+                            <div class="col-xs-5 ng-binding">Trujillo</div>
+                            <div class="col-xs-7 text-right ng-binding">(044) 280396</div>
+                        </div><!-- end ngRepeat: item in deliveryNumbers --><div class="col-xs-12 numbers-item cursor ng-scope" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)">
+                            <div class="col-xs-5 ng-binding">Arequipa</div>
+                            <div class="col-xs-7 text-right ng-binding">(054) 201565</div>
+                        </div><!-- end ngRepeat: item in deliveryNumbers --><div class="col-xs-12 numbers-item cursor ng-scope" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)">
+                            <div class="col-xs-5 ng-binding">Convenios</div>
+                            <div class="col-xs-7 text-right ng-binding">(01) 315 9009</div>
+                        </div><!-- end ngRepeat: item in deliveryNumbers -->
+                    </div>
+                </div>
+                <span class="text-gray font-light font-20 separator-information first-separator hidden-sm">|</span>
+
+                <a class="drugstore-link hidden-sm" ng-href="https://www.inkafarma.com.pe/blogdelasalud" target="_blank" href="https://www.inkafarma.com.pe/blogdelasalud">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" class="image-icon replaced-svg">
+    <path fill="#0EAC53" fill-rule="nonzero" d="M11.75 0h-7.5a.75.75 0 0 0-.75.75V6H1.25a.75.75 0 0 0-.75.75v3C.5 10.99 1.51 12 2.75 12h7.5c1.24 0 2.25-1.01 2.25-2.25v-9a.75.75 0 0 0-.75-.75zM3.5 9.75a.75.75 0 0 1-1.5 0V7.5h1.5v2.25zm3.75-7.875h1.5a.75.75 0 1 1 0 1.5h-1.5a.75.75 0 1 1 0-1.5zm3 6h-4.5a.75.75 0 1 1 0-1.5h4.5a.75.75 0 1 1 0 1.5zm0-2.25h-4.5a.75.75 0 1 1 0-1.5h4.5a.75.75 0 1 1 0 1.5z"></path>
+</svg>
+                    <span>Blog<span class="hidden-md"> de la salud</span></span>
+                </a>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-2 col-md-push-0 col-lg-push-2 no-padding text-right col-lg-push-3" ng-class="{'col-lg-push-3': !$root.userInfo}" style="">
+                <img class="image-icon" height="15" src="resources/images/ic-account-circle@2x.png" alt="user">
+                <!-- ngIf: !$root.userInfo --><span ng-if="!$root.userInfo" ng-click="signIn()" class="text-dark-gray font-semi-bold cursor ng-scope" style="">Ingresar</span><!-- end ngIf: !$root.userInfo -->
+                <!-- ngIf: $root.userInfo -->
+            </div>
+            <!-- ngIf: $root.userInfo -->
+        </div>
+    </div>
+</nav></header-information>
+
+        <!-- Navbar desktop -->
+        <nav class="navbar navbar-main-header no-margin display-center" role="navigation">
+            <div class="container no-padding">
+
+                <div class="row display-center main-header-content">
+                    <div class="col-xs-2 col-sm-1">
+                        <button class="button button-menu display-center" ng-click="showSidebar('menu')">
+                            <img height="10" src="resources/images/header/bar.png" alt="icon">
+                        </button>
+                    </div>
+
+                    <div class="col-xs-8 col-sm-2 padding-sm-left-0 main-logo-container col-sm-3" ng-class="{'col-sm-3': !search.show}" style="">
+                        <div class="row">
+                            <div class="col-xs-12 hidden-xs">
+                                <a href="/">
+                                    <img class="main-logo" ng-class="{'search-focus': search.show}" ng-src="false" onerror="this.src='resources/images/header/logo-inkafarma.png'" alt="icon" src="resources/images/header/logo-inkafarma.png">
+                                </a>
+                            </div>
+                            <div class="col-xs-12 visible-xs">
+                                <button uib-popover-template="'currentLocationPopover.html'" popover-class="current-location-popover" popover-placement="bottom" popover-trigger="'none'" popover-is-open="currentLocationPopover" class="button location-button display-center unable" ng-class="{'unable': !headerLocation.available}" ng-click="editUserAddress()" style="">
+                                    <img height="15" src="resources/images/header/location-error.png" alt="location">
+                                    <span class="ellipsis-text ng-binding">Carrera 52 14-30</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-2 col-sm-1 col-sm-push-7" ng-class="{'col-sm-push-8': search.show}">
+                        <button class="button button-cart display-center" ng-click="openCartSidebar()">
+                            <img height="25" class="shopping-cart-effect" ng-src="false" onerror="this.src='resources/images/header/cart.png'" alt="icon" src="resources/images/header/cart.png">
+                            <!-- ngIf: $root.cart.products.length > 0 -->
+                        </button>
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-sm-pull-1 padding-sm-right-0" ng-class="{'col-sm-8': search.show}">
+                        <div class="row input-search-desktop">
+                            <div class="col-xs-12 col-sm-7" ng-class="{'col-sm-9': search.show}">
+                                <input type="search" class="header-input input-search ng-pristine ng-untouched ng-valid ng-empty" ng-model="$root.searchFilterText" ng-model-options="{debounce: 500}" placeholder="Busca por marca o producto" ng-focus="filteredProducts()" ng-change="getSearchKeyword()" ng-keyup="searchWord($event, 'web')" style="">
+                                <label class="search-clean" ng-click="$root.searchFilterText = ''; $root.getSearchKeyword()" ng-class="{'cursor' : search.show}">
+                                    <img height="15" src="resources/images/header/search.png" alt="search">
+
+                                </label>
+                            </div>
+                            <div class="col-sm-3 hidden-xs col-sm-5" ng-class="{'col-sm-5': !search.show}" style="">
+                                <small class="location-header">Tu pedido llegará a:</small>
+                                <button uib-popover-template="'currentLocationPopover.html'" popover-class="current-location-popover" popover-placement="bottom-left" popover-trigger="'none'" popover-is-open="currentLocationPopover" class="button header-input input-location ellipsis-text display-center unable" ng-class="{'unable': !headerLocation.available}" ng-click="editUserAddress()" style="">
+                                    <img height="15" src="resources/images/header/location-error.png" alt="location">
+                                    <span class="ellipsis-text ng-binding">Carrera 52 14-30</span>
+                                </button>
+                                <script type="text/ng-template" id="currentLocationPopover.html">
+                                    <div class="row">
+                                        <div class="col-xs-2 col-sm-12 col-xs-push-10 col-sm-push-0">
+                                            <div class="close-popover-container" ng-click="toggleCurrentLocationPopover(false)"></div>
+                                        </div>
+                                        <div class="col-xs-10 col-sm-12 col-xs-pull-2 col-sm-pull-0" ng-switch on="locationAddress.currentLocation.type">
+                                            <span ng-switch-when="available">Puedes <strong class="text-red">cambiar</strong> tu dirección de entrega aquí</span>
+                                            <span ng-switch-when="unknownError">Te sugerimos <strong class="text-red">ingresar</strong> tu dirección para una mejor experiencia de compra</span>
+                                            <span ng-switch-when="permissionDenied">Te sugerimos <strong class="text-red">ingresar</strong> tu dirección para una mejor experiencia de compra</span>
+                                        </div>
+                                    </div>
+                                </script>
+                            </div>
+                        </div>
+                        <!-- ngIf: search.show -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- ngIf: search.show -->
+        </nav>
+    </header>
+</div>
+
+<div class="sidebar sidebar-header">
+    <!--Sidebar Principal Menu-->
+    <!-- ngInclude: --><ng-include src="'scripts/header/views/sidebar-menu.html'" class="ng-scope"><div class="menu ng-scope">
+    <div class="navbar-sidebar menu-sidebar">
+        <nav class="navbar no-margin" role="navigation">
+            <div class="row isotipo-inkafarma-container">
+                <div class="isotipo-inkafarma-close" ng-click="closeSidebar('menu')">
+                    <img height="15" src="resources/images/menu/close.png" alt="close" class="cursor hidden-xs">
+                    <img height="40" src="resources/images/menu/close-mobile.png" alt="close" class="cursor visible-xs">
+                </div>
+                <div class="col-xs-12">
+                    <img class="isotipo-inkafarma center-block" src="resources/images/menu/isotypo.png" alt="isotipo-inkafarma">
+                </div>
+            </div>
+            <!-- ngIf: $root.userInfo -->
+            <div class="row cursor">
+                <div class="col-xs-12 menu-item text-muted" ng-click="goHome()">
+                    <div class="col-xs-2 text-center">
+                        <div class="icon-menu home-icon"></div>
+                    </div>
+                    <div class="col-xs-10 cursor">
+                        <h5>Inicio</h5>
+                    </div>
+                </div>
+                <div class="col-xs-12 menu-item text-muted close-sidebar" ng-click="openCategoriesSidebar()">
+                    <div class="col-xs-2 text-center">
+                        <div class="icon-menu catologo-icon"></div>
+                    </div>
+                    <div class="col-xs-10 cursor">
+                        <h5>Catálogo de productos</h5>
+                    </div>
+                </div>
+                <!-- ngIf: $root.userInfo -->
+                <!-- ngIf: $root.userInfo -->
+                <div class="col-xs-12 menu-item text-muted close-sidebar" ng-click="openCartSidebar()">
+                    <div class="col-xs-2 text-center">
+                        <div class="icon-menu cart-icon"></div>
+                    </div>
+                    <div class="col-xs-10 cursor">
+                        <h5>Tu Carrito</h5>
+                    </div>
+                </div>
+                <div class="col-xs-12 menu-item text-muted close-sidebar" ng-click="openCostumerCareSidebar()">
+                    <div class="col-xs-2 text-center">
+                        <div class="icon-menu service-icon"></div>
+                    </div>
+                    <div class="col-xs-10 cursor">
+                        <h5>Atención al cliente</h5>
+                    </div>
+                </div>
+                <!-- ngIf: !$root.userInfo --><div ng-if="!$root.userInfo" class="col-xs-12 menu-item text-muted close-sidebar ng-scope" ng-click="signIn()">
+                    <div class="col-xs-2 text-center">
+                        <div class="icon-menu login-icon"></div>
+                    </div>
+                    <div class="col-xs-10 cursor">
+                        <h5>Ingresar</h5>
+                    </div>
+                </div><!-- end ngIf: !$root.userInfo -->
+                <!-- ngIf: $root.userInfo -->
+                <div class="col-xs-12 menu-item text-muted close-sidebar visible-xs visible-sm">
+                    <uib-accordion class="width-100"><div role="tablist" class="panel-group" ng-transclude="">
+                        <div class="panel panel-default width-100 ng-scope">
+                            <div class="panel-body border-bottom-1">
+                                <a class="drugstore-link text-gray" ng-href="https://www.inkafarma.com.pe/contactanos/ubica-tu-botica" target="_blank" href="https://www.inkafarma.com.pe/contactanos/ubica-tu-botica">
+                                    <div class="col-xs-1 text-center no-margin no-padding">
+                                        <div><img class="image-icon" height="14" src="resources/images/menu/plus.png" alt="computer"></div>
+                                    </div>
+                                    <div class="col-xs-11 cursor no-margin">
+                                        <h6>Boticas</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="panel-body border-bottom-1">
+                                <a class="drugstore-link text-gray" ng-href="https://www.inkafarma.com.pe/contactanos/delivery" target="_blank" href="https://www.inkafarma.com.pe/contactanos/delivery">
+                                    <div class="col-xs-1 text-center no-margin no-padding">
+                                        <div><img class="image-icon" height="14" src="resources/images/menu/motorcycle.png" alt="pin"></div>
+                                    </div>
+                                    <div class="col-xs-11 cursor no-margin">
+                                        <h6>Call Center</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div uib-accordion-group="" class="panel-body text-gray border-bottom-1 delivery-numbers-container ng-isolate-scope panel" is-open="status.open"><div role="tab" id="accordiongroup-137-7137-tab" aria-selected="" class="panel-heading" ng-keypress="toggleOpen($event)">
+  <h4 class="panel-title">
+    <a role="button" data-toggle="collapse" href="" aria-expanded="" aria-controls="accordiongroup-137-7137-panel" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading" ng-disabled="isDisabled" uib-tabindex-toggle=""><span uib-accordion-header="" ng-class="{'text-muted': isDisabled}" class="ng-binding">
+                                    <div class="row no-margin ng-scope">
+                                        <div class="col-xs-1 text-center no-padding">
+                                            <div><img class="image-icon" height="14" src="resources/images/menu/phone.png" alt="pin"></div>
+                                        </div>
+                                        <div class="col-xs-11 cursor padding-xs-right-0">
+                                            <h6 class="text-gray">
+                                                <span class="ng-binding">Atención al Cliente </span>
+                                                <span class="pull-right text-gray">
+                                                <span class="ng-binding"> (01) 314 2020</span>
+                                                    <i class="glyphicon margin-left-5 glyphicon-chevron-down" ng-class="{'glyphicon-chevron-up': status.open, 'glyphicon-chevron-down': !status.open}"></i>
+                                                </span>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </span></a>
+  </h4>
+</div>
+<div id="accordiongroup-137-7137-panel" aria-labelledby="accordiongroup-137-7137-tab" aria-hidden="true" role="tabpanel" class="panel-collapse collapse" uib-collapse="!isOpen" aria-expanded="false" style="height: 0px;">
+  <div class="panel-body" ng-transclude="">
+                                <uib-accordion-heading class="ng-scope"></uib-accordion-heading>
+                                <div class="delivery-numbers row ng-scope">
+                                    <div class="col-xs-12">
+                                        <!-- ngRepeat: item in deliveryNumbers --><!-- ngIf: item.id !== activeItem.id --><!-- end ngRepeat: item in deliveryNumbers --><!-- ngIf: item.id !== activeItem.id --><h6 class="col-xs-12 numbers-item text-gray cursor ng-scope" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)" ng-if="item.id !== activeItem.id">
+                                            <div class="col-xs-5 ng-binding">Lima</div>
+                                            <div class="col-xs-7 text-right ng-binding">(01) 314 2020</div>
+                                        </h6><!-- end ngIf: item.id !== activeItem.id --><!-- end ngRepeat: item in deliveryNumbers --><!-- ngIf: item.id !== activeItem.id --><h6 class="col-xs-12 numbers-item text-gray cursor ng-scope" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)" ng-if="item.id !== activeItem.id">
+                                            <div class="col-xs-5 ng-binding">Chiclayo</div>
+                                            <div class="col-xs-7 text-right ng-binding">(074) 208648</div>
+                                        </h6><!-- end ngIf: item.id !== activeItem.id --><!-- end ngRepeat: item in deliveryNumbers --><!-- ngIf: item.id !== activeItem.id --><h6 class="col-xs-12 numbers-item text-gray cursor ng-scope" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)" ng-if="item.id !== activeItem.id">
+                                            <div class="col-xs-5 ng-binding">Trujillo</div>
+                                            <div class="col-xs-7 text-right ng-binding">(044) 280396</div>
+                                        </h6><!-- end ngIf: item.id !== activeItem.id --><!-- end ngRepeat: item in deliveryNumbers --><!-- ngIf: item.id !== activeItem.id --><h6 class="col-xs-12 numbers-item text-gray cursor ng-scope" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)" ng-if="item.id !== activeItem.id">
+                                            <div class="col-xs-5 ng-binding">Arequipa</div>
+                                            <div class="col-xs-7 text-right ng-binding">(054) 201565</div>
+                                        </h6><!-- end ngIf: item.id !== activeItem.id --><!-- end ngRepeat: item in deliveryNumbers --><!-- ngIf: item.id !== activeItem.id --><h6 class="col-xs-12 numbers-item text-gray cursor ng-scope" ng-class="{'font-semi-bold': item.id === activeItem.id}" ng-repeat="item in deliveryNumbers" ng-click="setDeliveryNumber(item)" ng-if="item.id !== activeItem.id">
+                                            <div class="col-xs-5 ng-binding">Convenios</div>
+                                            <div class="col-xs-7 text-right ng-binding">(01) 315 9009</div>
+                                        </h6><!-- end ngIf: item.id !== activeItem.id --><!-- end ngRepeat: item in deliveryNumbers -->
+                                    </div>
+                                </div>
+                            </div>
+</div>
+</div>
+                            <div class="panel-body border-bottom-1">
+                                <a class="drugstore-link text-gray" ng-href="https://www.inkafarma.com.pe/blogdelasalud" target="_blank" href="https://www.inkafarma.com.pe/blogdelasalud">
+                                    <div class="col-xs-1 text-center no-margin no-padding">
+                                        <div><img class="image-icon" height="14" src="resources/images/menu/newspaper.png" alt="pin"></div>
+                                    </div>
+                                    <div class="col-xs-11 cursor no-margin">
+                                        <h6>Blog de la salud</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div></uib-accordion>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div></ng-include>
+
+    <!-- Search bar -->
+    <!-- ngInclude: --><ng-include src="'scripts/header/views/sidebar-search.html'" class="ng-scope"><div class="search ng-scope">
+    <div class="navbar-sidebar search-sidebar">
+
+        <nav class="navbar desktop-nav no-margin container-fluid navbar-header-sidebar" role="navigation">
+            <div class="row">
+                <div class="col-xs-2">
+                    <button type="button" class="nav-button btn-header padding-xs-0" ng-click="$root.searchFilterText = '';closeSidebar('search')">
+                        <i class="fa fa-arrow-left"></i>
+                    </button>
+                </div>
+                <div class="col-xs-10 search-container p-relative">
+                    <form class="form-search ng-pristine ng-valid" ng-submit="searchWord($event, 'mobile')">
+                        <input type="search" class="header-input input-search input-search-mobile text-left ng-pristine ng-untouched ng-valid ng-empty" ng-model="$root.searchFilterText" ng-change="$root.getSearchKeyword()" ng-model-options="{debounce: 500}" placeholder="      Busca por marca o producto" style="font-family: 'lato', FontAwesome; font-size: 15px">
+                    </form>
+                    <span ng-show="$root.searchFilterText.length > 0" class="pull-right cursor input-search-cleaned ng-hide" ng-click="$root.searchFilterText = ''; $root.getSearchKeyword()">
+                        <img src="resources/images/close.png" height="15" alt="close icon">
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row search-mobile">
+            <div class="col-xs-12 filter-container no-padding">
+                <div class="container-fluid filter-list full-vh">
+                    <!-- ngIf: search.historyState --><div class="col-xs-12 list-item first-item ng-scope" ng-if="search.historyState">
+                        Últimas búsquedas
+                    </div><!-- end ngIf: search.historyState -->
+                    <!-- ngIf: search.historyState && $root.model.searchHistory.length === 0 -->
+                    <!-- ngIf: search.keywordState && !noResultsDialogVisible -->
+
+                    <!--Historial de Busqueda-->
+                    <!-- ngRepeat: item in $root.model.searchHistory | limitTo:10 -->
+
+
+                    <!--Busqueda Predictiva-->
+                    <!-- ngRepeat: item in $root.model.searchKeyword -->
+                    <!-- ngIf: search.keywordState && !noResultsDialogVisible -->
+                    <!--Busqueda de producto-->
+                    <!-- ngIf: !areSearchResultsLoading && search.productState && $root.model.searchProduct.totalRecords > 0 -->
+                    <!-- ngRepeat: item in search.productsToShow -->
+
+                    <!-- ngIf: search.productState && search.page < $root.model.searchProduct.total -->
+
+                    <!-- ngIf: noResultsDialogVisible -->
+
+                    <!-- ngIf: areSearchResultsLoading -->
+
+                    <div class="col-xs-12 padding-xs-0">
+                        <categories class="ng-isolate-scope"><div class="categories">
+    <section class="categories-container">
+        <div ng-class="small ? 'container-fluid': 'container'" class="container" style="">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h4 class="small categories-title">CATÁLOGO DE PRODUCTOS</h4>
+                </div>
+            </div>
+            <div class="row container-categories-block">
+                <!-- ngRepeat: category in $root.model.categories -->
+                <!-- ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare" style="">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare --><div class="col-xs-6 col-sm-3 col-md-3 categories-content ng-scope col-lg-2" ng-class="{'col-lg-2': !small}" ng-repeat="item in completeSquare">
+                    <div class="categories-blocks categories-complete-block" ng-class="{'small-block': small}"></div>
+                </div><!-- end ngRepeat: item in completeSquare -->
+            </div>
+        </div>
+    </section>
+</div></categories>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></ng-include>
+
+    <!-- Sidebar Categories -->
+    <!-- ngInclude: --><ng-include src="'scripts/header/views/sidebar-categories.html'" class="ng-scope" style=""><div class="categories ng-scope">
+    <div class="navbar-sidebar categories-sidebar">
+
+        <nav class="navbar desktop-nav no-margin container-fluid navbar-header-sidebar" role="navigation">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-1 padding-xs-0">
+                    <h4 class="inline text-white bottom5 top5">CATEGORIAS</h4>
+                </div>
+                <div class="col-xs-2 padding-xs-0 top5">
+                    <span class="pull-right cursor" ng-click="closeSidebar('categories')">
+                        <img src="resources/images/close.png" height="15" alt="close icon">
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row categories-content">
+                <!-- ngRepeat: category in $root.model.categories -->
+            </div>
+        </div>
+    </div>
+</div></ng-include>
+
+    <!-- Sidebar Profile -->
+    <profile><div class="profile">
+    <div class="navbar-sidebar profile-sidebar">
+        <!-- ngIf: alertVisible -->
+
+        <div class="container-fluid cart-header">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-1 no-padding-left">
+                    <p class="text-white">MIS DATOS </p>
+                </div>
+                <div class="col-xs-3 text-center">
+                    <span class="cursor" ng-click="closeProfile()">
+                        <img src="resources/images/close.png" height="15" alt="close icon">
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid profile-content">
+            <div class="row empty-space">
+                <div class="col-xs-12 user-photo">
+                    <div class="photo-container">
+                        <img id="photo-img" width="150px" height="150px">
+                        <!-- ngIf: editProfileEnabled -->
+                    </div>
+                </div>
+            </div>
+            <div class="row body-sidebar">
+                <div class="col-xs-12 form-container">
+                    <form ng-submit="updateUserProfile()" name="profileForm" class="form ng-pristine ng-valid ng-valid-pattern" ng-class="{'form-active': editProfileEnabled}" style="">
+                        <div class="form-group">
+                            <label class="form-text text-green">Nombres*</label>
+                            <input class="form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-pattern" ng-model="userData.name" name="name" ng-disabled="!editProfileEnabled" ng-pattern="/^[a-zA-ZÀ-ÿ\u00f1\u00d1\s]*$/" disabled="disabled" style="">
+                            <!-- ngIf: userData.name.trim().length === 0 -->
+                            <!-- ngIf: profileForm.name.$error.pattern -->
+                        </div>
+                        <div class="form-group">
+                            <label class="form-text text-green">Apellidos*</label>
+                            <input class="form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-pattern" name="lastName" ng-model="userData.lastName" ng-disabled="!editProfileEnabled" ng-pattern="/^[a-zA-ZÀ-ÿ\u00f1\u00d1\s]*$/" disabled="disabled" style="">
+                            <!-- ngIf: userData.lastName.trim().length === 0 -->
+                            <!-- ngIf: profileForm.lastName.$error.pattern -->
+                        </div>
+                        <div class="form-group">
+                            <label class="form-text text-green">Fecha de nacimiento:</label>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <select class="ng-pristine ng-untouched ng-valid ng-empty" ng-model="userData.birthDate.date" ng-disabled="!editProfileEnabled" disabled="disabled" style=""><option value="? undefined:undefined ?"></option>
+                                        <!-- ngRepeat: day in days -->
+                                    </select>
+                                </li>
+                                <li class="list-inline-item">
+                                    <select class="ng-pristine ng-untouched ng-valid ng-empty" ng-change="determineDays()" ng-model="userData.birthDate.month" ng-disabled="!editProfileEnabled" disabled="disabled" style=""><option value="? undefined:undefined ?"></option>
+                                        <!-- ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="ENERO" class="ng-binding ng-scope" style="">Enero</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="FEBRERO" class="ng-binding ng-scope">Febrero</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="MARZO" class="ng-binding ng-scope">Marzo</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="ABRIL" class="ng-binding ng-scope">Abril</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="MAYO" class="ng-binding ng-scope">Mayo</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="JUNIO" class="ng-binding ng-scope">Junio</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="JULIO" class="ng-binding ng-scope">Julio</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="AGOSTO" class="ng-binding ng-scope">Agosto</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="SETIEMBRE" class="ng-binding ng-scope">Setiembre</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="OCTUBRE" class="ng-binding ng-scope">Octubre</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="NOVIEMBRE" class="ng-binding ng-scope">Noviembre</option><!-- end ngRepeat: (key, month) in months --><option ng-repeat="(key, month) in months" value="DICIEMBRE" class="ng-binding ng-scope">Diciembre</option><!-- end ngRepeat: (key, month) in months -->
+                                    </select>
+                                </li>
+                                <li class="list-inline-item">
+                                    <select class="ng-pristine ng-untouched ng-valid ng-empty" ng-change="determineDays()" ng-model="userData.birthDate.year" ng-disabled="!editProfileEnabled" disabled="disabled" style=""><option value="? undefined:undefined ?"></option>
+                                        <!-- ngRepeat: year in years -->
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-6">
+                                <label class="form-text text-green">Sexo: </label>
+                                <select class="ng-pristine ng-untouched ng-valid ng-empty" ng-model="userData.sexId" ng-disabled="!editProfileEnabled" disabled="disabled" style=""><option value="? undefined:undefined ?"></option>
+                                    <option value="Seleccionar">Seleccionar</option>
+                                    <option value="1">Hombre</option>
+                                    <option value="2">Mujer</option>
+                                    <option value="3">Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-6">
+                                <label class="form-text text-green">Tipo de documento:</label>
+                                <input class="form-control" ng-class="{'input-disabled':editProfileEnabled}" value="DNI" disabled="disabled">
+                            </div>
+                            <div class="col-xs-6">
+                                <label class="form-text text-green">Número de documento:</label>
+                                <input class="form-control" ng-class="{'input-disabled':editProfileEnabled}" value="" disabled="disabled">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-6">
+                                <label class="form-text text-green">Número de celular*</label>
+                                <input class="form-control" ng-class="{'input-disabled':editProfileEnabled}" value="" disabled="disabled">
+                            </div>
+                        </div>
+                        <!-- ngIf: !editProfileEnabled --><div ng-if="!editProfileEnabled" class="col-xs-12 top40 ng-scope" style="">
+                            <button class="btn btn-save" id="edit-profile" type="button" ng-click="setProfileEnabled(true);editProfile()"> Modificar mis datos </button>
+                        </div><!-- end ngIf: !editProfileEnabled -->
+                        <!-- ngIf: editProfileEnabled -->
+                        <!-- ngIf: editProfileEnabled -->
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div></profile>
+
+    <!--Sidebar Atención al Cliente-->
+    <!-- ngInclude: --><ng-include src="'scripts/header/views/sidebar-costumer-care.html'" class="ng-scope" style=""><div class="costumer-care ng-scope">
+    <div class="navbar-sidebar costumer-care-sidebar">
+        <nav class="navbar desktop-nav no-margin container-fluid navbar-header-sidebar" role="navigation">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-1 padding-xs-0">
+                    <h4 class="inline text-white bottom5 top5">ATENCIÓN AL CLIENTE</h4>
+                </div>
+                <div class="col-xs-2 padding-xs-0 top5">
+                    <span class="pull-right cursor" ng-click="closeSidebar('costumer-care')">
+                        <img src="resources/images/close.png" height="15" alt="close icon">
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row text-center costumer-care-content">
+                <div class="col-xs-12 top50">
+                    <img class="aCliente-image" src="resources/images/atencion-cliente.png" alt="costumer-care">
+                </div>
+                <div class="col-xs-12 padding-20">
+                    <p class="font-20 top30 text-green font-500">¿Necesitas ayuda?</p>
+                    <div class="text-atencion">
+                        <p class="text-muted top30">Para encontrar respuestas a algunas de tus dudas intenta con una de estas opciones.</p>
+                    </div>
+                    <button class="btn btn-question top30" ng-click="openCostumerCareQuestionsSidebar()">Preguntas frecuentes</button>
+                    <p class="text-green top30 bottom30 cursor" ng-click="openCostumerCareConsultsSidebar()">Envíanos una consulta</p><p>
+                </p></div>
+            </div>
+        </div>
+    </div>
+</div></ng-include>
+
+    <!--Sidebar Favorites-->
+    <!-- ngInclude: --><ng-include src="'scripts/header/views/sidebar-favorites.html'" class="ng-scope" style=""><div class="favorites ng-scope">
+    <div class="navbar-sidebar favorites-sidebar">
+        <nav class="navbar desktop-nav no-margin container-fluid favorite-header" role="navigation">
+            <div class="row">
+                <div class="col-xs-10">
+                    <h4 class="inline top5 text-white bottom5">GUARDADOS</h4>
+                </div>
+                <div class="col-xs-1 padding-xs-0 top5">
+                    <span class="pull-right cursor" ng-click="closeSidebar('favorites')">
+                        <img src="resources/images/close.png" height="15" alt="close icon">
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid favorites-content">
+            <!-- ngRepeat: item in $root.model.favorites -->
+            <!-- ngIf: $root.model.favorites.length === 0 --><div ng-if="$root.model.favorites.length === 0" class="ng-scope">
+                <div class="col-xs-12 text-center font-normal bg-white top15">
+                    <div class="padding-20 top30 text-center">
+                        <div class="image-heart bottom15">
+                            <img class="img-responsive top35" src="resources/images/shape-copy@2x.png" alt="heart">
+                        </div>
+                        <p class="text-green font-semi-bold font-20 message-text-green">Aún no tienes<br>productos guardados</p>
+                        <p class="text-muted top15 padding-20 font-16 guardados-text">Agrega tus productos preferidos
+                            haciendo clic al ícono del corazón</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 bg-white bottom15 text-center">
+                    <button class="btn btn-favorites top50 bottom30 text-center close-sidebar" ng-click="openCategoriesSidebar()">Ir al catálogo de productos
+                    </button>
+                </div>
+            </div><!-- end ngIf: $root.model.favorites.length === 0 -->
+        </div>
+    </div>
+</div></ng-include>
+
+    <!--History Sidebar-->
+    <!-- ngInclude: --><ng-include src="'scripts/header/views/sidebar-history.html'" class="ng-scope"><div class="history ng-scope">
+    <div class="navbar-sidebar history-sidebar">
+
+        <nav class="navbar desktop-nav no-margin container-fluid navbar-header-sidebar" role="navigation">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-1 padding-xs-0">
+                    <h4 class="inline text-white bottom5 top5">HISTORIAL</h4>
+                </div>
+                <div class="col-xs-2 padding-xs-0 top5">
+                    <span class="pull-right cursor" ng-click="closeSidebar('history')">
+                        <img src="resources/images/close.png" height="15" alt="close icon">
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid history-content">
+            <!-- ngIf: $root.model.orderHistory.length !== 0 -->
+            <!-- ngIf: $root.model.orderHistory.length === 0 --><div class="row ng-scope" ng-if="$root.model.orderHistory.length === 0">
+                <div class="col-xs-12 text-center font-normal bg-white top15">
+                    <div class="padding-20 top30">
+                        <img class="top30 center-block" height="100" src="resources/images/atencion-cliente.png" alt="guardados">
+                        <p class="font-semi-bold top30 font-20">Tu historial esta vacío</p>
+                        <p class="text-muted top15 font-16 guardados-text">Aún no has realizado un pedido.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 bg-white bottom15 text-center">
+                    <button class="btn btn-categories top50 bottom30 close-sidebar" ng-click="openCategoriesSidebar()">IR A CATÁLOGO
+                    </button>
+                </div>
+            </div><!-- end ngIf: $root.model.orderHistory.length === 0 -->
+        </div>
+    </div>
+</div></ng-include>
+
+    <!--History Details Sidebar-->
+    <history-details-sidebar order="model.historyOrderSelected" class="ng-isolate-scope"><div class="navbar-sidebar history-details-sidebar">
+
+    <nav class="navbar desktop-nav no-margin container-fluid navbar-header-sidebar" role="navigation">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="inline text-white bottom5 top5">
+                    <img src="resources/images/history/arrow-right.png" height="15" alt="close icon" class="cursor" ng-click="backHistory()">
+                    DETALLE DEL PEDIDO
+                </p>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid history-details-content custom-scrollbar">
+        <div class="row bg-white padding-top-20 padding-bottom-20 bottom5">
+            <div class="col-xs-2">
+                <!-- ngIf: order.shoppingCardStatusId === 7 -->
+                <!-- ngIf: order.shoppingCardStatusId === 8 -->
+                <!-- ngIf: order.shoppingCardStatusId === 9 -->
+            </div>
+            <div class="col-xs-10">
+                <h4><b class="ng-binding">Pedido #</b></h4>
+                <!-- ngIf: order.orderDate -->
+                <h4 class="font-semi-bold top10 small item-status ng-binding text-red-light" ng-class="order.shoppingCardStatusId === 7 ?'text-green-light' : 'text-red-light'" style="">
+                    
+                </h4>
+            </div>
+        </div>
+        <div class="row bg-white padding-top-20 padding-bottom-20 bottom5 detail-history">
+            <div class="col-xs-12">
+                <p class="font-bolt-500 bottom15">Detalle de tu pedido</p>
+                <!-- ngRepeat: item in order.orderStatus -->
+                <p class="text-muted top10">
+                    <span class="row block">
+                        <span class="col-xs-2 col-sm-1">
+                            <img height="15" src="resources/images/history/pin.png" alt="">
+                        </span>
+                        <span class="col-xs-10 col-sm-11">
+                            <span class="ng-binding"></span>
+                        </span>
+                    </span>
+                </p>
+                <p class="text-muted top10">
+                    <span class="row block">
+                        <span class="col-xs-2 col-sm-1">
+                            <img height="15" src="resources/images/history/money.png" alt="">
+                        </span>
+                        <span class="col-xs-10 col-sm-11">
+                            <span class="ng-binding">Medio de pago: </span>
+                        </span>
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="row bg-white padding-top-20 padding-bottom-20 bottom5 products-history">
+            <div class="col-xs-12 bottom20">
+                <div class="row">
+                    <div class="col-xs-2 col-sm-1 padding-xs-right-0">
+                        <img height="25" src="resources/images/alert-invalid-address.png" alt="alert">
+                    </div>
+                    <div class="col-xs-10 col-sm-11">
+                        <p class="alert-products small">Ten en cuenta que los precios de los productos que compraste están sujetos a variación.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 bottom20">
+                <p class="font-bolt-500">Productos</p>
+            </div>
+            <!-- ngRepeat: item in order.productList -->
+            <div class="col-xs-12 text-center">
+                <button class="btn btn-categories btn-history-cart" ng-click="addAllToCart()" ng-class="{'disabled': itemsInCar >= order.productList.length}">Agregar todo al carrito</button>
+            </div>
+        </div>
+        <div class="row bg-white padding-top-20 padding-bottom-20 bottom5">
+            <div class="col-xs-12">
+                <p class="font-bolt-500">Detalle de tu pedido</p>
+                <p class="top20">Sub total <span class="pull-right ng-binding">S/ 0.00</span></p>
+                <p class="top10">Costo de envío <span class="pull-right ng-binding">S/ 0.00</span></p>
+                <!-- ngIf: order.discountApplied > 0 -->
+                <p class="font-semi-bold font-18 history-total-amount">Importe total <span class="pull-right ng-binding">S/ 0.00</span></p>
+            </div>
+        </div>
+    </div>
+</div></history-details-sidebar>
+
+    <!--Subcategory sidebar-->
+    <subcategories-sidebar category="model.categorySelected" image="model.categorySelectedImage" class="ng-isolate-scope"><div class="subcategories-sidebar navbar-sidebar subcategories-wrapper-sidebar">
+
+    <nav class="navbar desktop-nav no-margin navbar-header-sidebar" role="navigation">
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-1 padding-xs-0">
+                <h4 class="inline text-white bottom5 top5 ng-binding"></h4>
+            </div>
+            <div class="col-xs-2 padding-xs-0 top5">
+                    <span class="pull-right cursor" ng-click="backSubCategories()">
+                        <img src="resources/images/close.png" height="15" alt="close icon">
+                    </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <!-- ngIf: !products --><div class="container-fluid ng-scope" ng-if="!products" style="">
+        <div class="row subcategories-container bottom10">
+            <div class="col-xs-12 subcategories-header box-white">
+                <img class="subcategory-img center-block bottom30" alt="">
+                <h3 class="subcategory-name text-green text-center font-semi-bold ng-binding"></h3>
+            </div>
+        </div>
+
+        <!-- ngRepeat: subcategory in category.categories -->
+    </div><!-- end ngIf: !products -->
+
+    <!-- ngIf: products -->
+
+</div></subcategories-sidebar>
+
+    <!-- Theme Questions sidebar -->
+    <atencion-questions-sidebar><div class="atencion-questions-sidebar atencion-questions-sidebar-directive navbar-sidebar atencion-questions-sidebar-wrapper atencion-questions-wrapper-sidebar">
+
+    <nav class="navbar desktop-nav no-margin container-fluid atencion-questions-header" role="navigation">
+        <div class="row">
+            <div class="col-md-9 col-xs-7 col-xs-offset-1 padding-xs-0">
+                <h4 class="inline top10 text-white font-15 ng-binding">PREGUNTAS FRECUENTES</h4>
+            </div>
+            <div class="col-md-1 col-xs-3 col-xs-offset-1">
+                <button type="button" class="btn-header btn btn-success pull-right btn-back" ng-click="openCostumerCareSidebar()">Volver
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Content -->
+    <div class="container-fluid">
+        <div class="row questions-content">
+            <!-- ngRepeat: question in $root.model.questions.sections -->
+        </div>
+    </div>
+</div></atencion-questions-sidebar>
+
+    <!-- Questions sidebar -->
+    <questions-sidebar questions="model.questionSelected" class="ng-isolate-scope"><div class="questions-sidebar questions-sidebar-directive navbar-sidebar questions-sidebar-wrapper questions-wrapper-sidebar">
+    <nav class="navbar desktop-nav no-margin container-fluid atencion-questions-header" role="navigation">
+        <div class="row">
+            <div class="col-md-9 col-xs-7 col-xs-offset-1 padding-xs-0">
+                <h4 class="inline top10 text-white font-15 text-uppercase ng-binding"></h4>
+            </div>
+            <div class="col-md-1 col-xs-3 col-xs-offset-1">
+                <button type="button" class="btn-header btn btn-success pull-right btn-back" ng-click="backCostumerCareQuestionsSidebar()">Volver
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row questions-content">
+            <!-- ngRepeat: item in $root.model.questionByTheme.faqs -->
+        </div>
+    </div>
+</div></questions-sidebar>
+
+    <!-- Consults sidebar -->
+    <send-consult-sidebar><div class="send-consult-sidebar send-consult-sidebar-directive navbar-sidebar send-consult-wrapper-sidebar">
+
+        <nav class="navbar desktop-nav no-margin container-fluid send-consult-header" role="navigation">
+            <div class="row">
+                <div class="col-md-9 col-xs-7 col-xs-offset-1 padding-xs-0">
+                    <h4 class="inline top10 text-white font-15 ng-binding">ENVÍANOS UNA CONSULTA</h4>
+                </div>
+                <div class="col-md-1 col-xs-3 col-xs-offset-1">
+                    <button type="button" class="btn-header btn btn-success pull-right btn-back" ng-click="backConsults()">Volver
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Content -->
+        <!-- ngIf: !consult --><div class="container-fluid ng-scope" ng-if="!consult" style="">
+            <div class="row send-consult-content">
+                <!-- ngRepeat: consult in $root.model.consults -->
+            </div>
+        </div><!-- end ngIf: !consult -->
+    </div></send-consult-sidebar>
+
+    <!-- Cart Directive -->
+    <cart><div class="cart cart-directive">
+
+    <div class="navbar-sidebar cart-sidebar">
+
+        <div class="container-fluid cart-header">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-1 padding-xs-0">
+                    <p class="text-white ng-binding">Tu Carrito ()</p>
+                </div>
+                <div class="col-xs-2 padding-xs-0">
+                    <span class="pull-right cursor" ng-click="closeSidebar('cart')">
+                        <img src="resources/images/close.png" height="15" alt="close icon">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="cart-wrapper">
+                <!-- ngIf: model.confirmData.productItemList.length > 0 -->
+
+                <!-- ngIf: model.confirmData.productItemList.length  === 0 -->
+            </div>
+        </section>
+
+        <!-- ngIf: $root.config.activeMenuPage === 'cart' -->
+    </div>
+
+</div></cart>
+
+    <!--overlay-->
+    <div class="sidebar-overlay close-sidebar subcategories-sidebar" ng-click="closeSidebar($root.config.activeMenuPage)"></div>
+</div></main-header>
+
+        <!--Dashboard Content-->
+        <section class="dashboard-content home">
+
+            <!-- ngIf: isAnonymousUser === false -->
+
+            <!-- ngIf: sliderBanners.data.length && slickInitialSlideBanners --><div class="row ng-scope" ng-if="sliderBanners.data.length &amp;&amp; slickInitialSlideBanners" style="">
+                <div class="col-xs-12 slider-banners-container padding-xs-0" role="toolbar">
+                    <slick settings="slickSlideBanners" class="ng-isolate-scope slick-initialized slick-slider slick-dotted" style="display: block;"><button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="">Previous</button>
+                        <!-- ngRepeat: item in sliderBanners.data --><div aria-live="polite" class="slick-list draggable" style="height: 1px;"><div class="slick-track" style="opacity: 1; width: 8136px; transform: translate3d(-1017px, 0px, 0px);" role="listbox"><ng-template ng-repeat="item in sliderBanners.data" class="ng-scope slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 1017px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a ng-href="/deeplinks?category=1&amp;subcategory=276" href="/deeplinks?category=1&amp;subcategory=276" tabindex="-1">
+                                        <img class="center-block" width="100%" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-eucerinbabyD.jpg" alt="banner_1208-EucerinBaby" id="">
+                                    </a>
+                                </div>
+                            </div>
+                        </ng-template><ng-template ng-repeat="item in sliderBanners.data" class="ng-scope slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 1017px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a ng-href="/deeplinks?category=1&amp;subcategory=271" href="/deeplinks?category=1&amp;subcategory=271" tabindex="0">
+                                        <img class="center-block" width="100%" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-similacD.jpg" alt="banner_1208-Similac" id="home_slider_banner_1255">
+                                    </a>
+                                </div>
+                            </div>
+                        </ng-template><ng-template ng-repeat="item in sliderBanners.data" class="ng-scope slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide01" style="width: 1017px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a ng-href="/deeplinks?category=1&amp;subcategory=258" href="/deeplinks?category=1&amp;subcategory=258" tabindex="-1">
+                                        <img class="center-block" width="100%" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-huggiesD.jpg" alt="banner_1208-Huggies" id="home_slider_banner_1254">
+                                    </a>
+                                </div>
+                            </div>
+                        </ng-template><ng-template ng-repeat="item in sliderBanners.data" class="ng-scope slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide02" style="width: 1017px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a ng-href="/deeplinks?category=1&amp;subcategory=260" href="/deeplinks?category=1&amp;subcategory=260" tabindex="-1">
+                                        <img class="center-block" width="100%" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-johnsonD.jpg" alt="banner_1208-Johnson" id="home_slider_banner_1256">
+                                    </a>
+                                </div>
+                            </div>
+                        </ng-template><ng-template ng-repeat="item in sliderBanners.data" class="ng-scope slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide03" style="width: 1017px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a ng-href="/deeplinks?category=1&amp;subcategory=273" href="/deeplinks?category=1&amp;subcategory=273" tabindex="-1">
+                                        <img class="center-block" width="100%" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-pediasureD.jpg" alt="banner_1208-Pediasure" id="home_slider_banner_1253">
+                                    </a>
+                                </div>
+                            </div>
+                        </ng-template><ng-template ng-repeat="item in sliderBanners.data" class="ng-scope slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide04" style="width: 1017px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a ng-href="/deeplinks?category=1&amp;subcategory=261" href="/deeplinks?category=1&amp;subcategory=261" tabindex="-1">
+                                        <img class="center-block" width="100%" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-colgatekidscorrecionD.jpg" alt="banner_1208-ColgateKidsCorrecion" id="home_slider_banner_1259">
+                                    </a>
+                                </div>
+                            </div>
+                        </ng-template><ng-template ng-repeat="item in sliderBanners.data" class="ng-scope slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide05" style="width: 1017px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a ng-href="/deeplinks?category=1&amp;subcategory=276" href="/deeplinks?category=1&amp;subcategory=276" tabindex="-1">
+                                        <img class="center-block" width="100%" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-eucerinbabyD.jpg" alt="banner_1208-EucerinBaby" id="home_slider_banner_1258">
+                                    </a>
+                                </div>
+                            </div>
+                        </ng-template><ng-template ng-repeat="item in sliderBanners.data" class="ng-scope slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" tabindex="-1" style="width: 1017px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a ng-href="/deeplinks?category=1&amp;subcategory=271" href="/deeplinks?category=1&amp;subcategory=271" tabindex="-1">
+                                        <img class="center-block" width="100%" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-similacD.jpg" alt="banner_1208-Similac" id="">
+                                    </a>
+                                </div>
+                            </div>
+                        </ng-template></div></div><!-- end ngRepeat: item in sliderBanners.data --><!-- end ngRepeat: item in sliderBanners.data --><!-- end ngRepeat: item in sliderBanners.data --><!-- end ngRepeat: item in sliderBanners.data --><!-- end ngRepeat: item in sliderBanners.data --><!-- end ngRepeat: item in sliderBanners.data -->
+                        <!--                        arrow-active-order.png-->
+                    <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="">Next</button><ul class="order-dots" style="" role="tablist"><li class="slick-active" aria-hidden="false" role="presentation" aria-selected="true" aria-controls="navigation00" id="slick-slide00"><button type="button" data-role="none" role="button" tabindex="0">1</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation01" id="slick-slide01"><button type="button" data-role="none" role="button" tabindex="0">2</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation02" id="slick-slide02"><button type="button" data-role="none" role="button" tabindex="0">3</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation03" id="slick-slide03"><button type="button" data-role="none" role="button" tabindex="0">4</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation04" id="slick-slide04"><button type="button" data-role="none" role="button" tabindex="0">5</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation05" id="slick-slide05"><button type="button" data-role="none" role="button" tabindex="0">6</button></li></ul></slick>
+                </div>
+            </div><!-- end ngIf: sliderBanners.data.length && slickInitialSlideBanners -->
+
+            <!--Information Products-->
+            <div class="row">
+                <div class="container">
+
+                    <!-- ngIf: categoryList.length && slickInitialCategories --><div class="row padding-bottom-10 padding-top-10 ng-scope" ng-if="categoryList.length &amp;&amp; slickInitialCategories" style="">
+                        <div class="col-xs-12 dashboard-categories-container padding-xs-0">
+                            <slick class="dashboard-categories-slick ng-isolate-scope slick-initialized slick-slider" settings="slickConfigCategories" style="display: block;">
+                                <!-- ngRepeat: item in categoryList --><div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 973px; transform: translate3d(0px, 0px, 0px);" role="listbox"><div ng-repeat="item in categoryList" class="ng-scope slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide10" style="width: 139px;">
+                                    <a class="dashboard-category" ng-href="https://inkafarma.pe/deeplinks?category=52&amp;subcategory=67" ng-mouseenter="onMouseEnterCategory($event)" ng-mouseleave="onMouseLeaveCategory()" href="https://inkafarma.pe/deeplinks?category=52&amp;subcategory=67" tabindex="0">
+                                        <div class="category-circle">
+                                            <img class="center-block" src="https://inkafarma-category.s3-us-west-2.amazonaws.com/cosmetics@3x.png" alt="category_Belleza">
+                                        </div>
+                                        <p class="icon-title ng-binding">Belleza</p>
+                                    </a>
+                                </div><div ng-repeat="item in categoryList" class="ng-scope slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide11" style="width: 139px;">
+                                    <a class="dashboard-category" ng-href="https://inkafarma.pe/deeplinks?category=54&amp;subcategory=38" ng-mouseenter="onMouseEnterCategory($event)" ng-mouseleave="onMouseLeaveCategory()" href="https://inkafarma.pe/deeplinks?category=54&amp;subcategory=38" tabindex="0">
+                                        <div class="category-circle">
+                                            <img class="center-block" src="https://inkafarma-category.s3-us-west-2.amazonaws.com/intersex@3x.png" alt="category_Bienestar Sexual">
+                                        </div>
+                                        <p class="icon-title ng-binding">Bienestar Sexual</p>
+                                    </a>
+                                </div><div ng-repeat="item in categoryList" class="ng-scope slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide12" style="width: 139px;">
+                                    <a class="dashboard-category" ng-href="https://inkafarma.pe/deeplinks?category=86&amp;subcategory=74" ng-mouseenter="onMouseEnterCategory($event)" ng-mouseleave="onMouseLeaveCategory()" href="https://inkafarma.pe/deeplinks?category=86&amp;subcategory=74" tabindex="0">
+                                        <div class="category-circle">
+                                            <img class="center-block" src="https://inkafarma-category.s3-us-west-2.amazonaws.com/soap-2@3x.png" alt="category_Cuidado Personal">
+                                        </div>
+                                        <p class="icon-title ng-binding">Cuidado Personal</p>
+                                    </a>
+                                </div><div ng-repeat="item in categoryList" class="ng-scope slick-slide slick-active" data-slick-index="3" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide13" style="width: 139px;">
+                                    <a class="dashboard-category" ng-href="https://inkafarma.pe/deeplinks?category=103&amp;subcategory=116" ng-mouseenter="onMouseEnterCategory($event)" ng-mouseleave="onMouseLeaveCategory()" href="https://inkafarma.pe/deeplinks?category=103&amp;subcategory=116" tabindex="0">
+                                        <div class="category-circle">
+                                            <img class="center-block" src="https://inkafarma-category.s3-us-west-2.amazonaws.com/pills-1@3x.png" alt="category_Farmacia y Salud">
+                                        </div>
+                                        <p class="icon-title ng-binding">Farmacia y Salud</p>
+                                    </a>
+                                </div><div ng-repeat="item in categoryList" class="ng-scope slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide14" style="width: 139px;">
+                                    <a class="dashboard-category" ng-href="https://inkafarma.pe/deeplinks?category=147&amp;subcategory=167" ng-mouseenter="onMouseEnterCategory($event)" ng-mouseleave="onMouseLeaveCategory()" href="https://inkafarma.pe/deeplinks?category=147&amp;subcategory=167" tabindex="0">
+                                        <div class="category-circle">
+                                            <img class="center-block" src="https://inkafarma-category.s3-us-west-2.amazonaws.com/maternity@3x.png" alt="category_Mamá y Bebe">
+                                        </div>
+                                        <p class="icon-title ng-binding">Mamá y Bebe</p>
+                                    </a>
+                                </div><div ng-repeat="item in categoryList" class="ng-scope slick-slide slick-active" data-slick-index="5" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide15" style="width: 139px;">
+                                    <a class="dashboard-category" ng-href="https://inkafarma.pe/deeplinks?category=252&amp;subcategory=212" ng-mouseenter="onMouseEnterCategory($event)" ng-mouseleave="onMouseLeaveCategory()" href="https://inkafarma.pe/deeplinks?category=252&amp;subcategory=212" tabindex="0">
+                                        <div class="category-circle">
+                                            <img class="center-block" src="https://inkafarma-category.s3-us-west-2.amazonaws.com/pills-bottle@3x.png" alt="category_Vitaminas /Suplementos">
+                                        </div>
+                                        <p class="icon-title ng-binding">Vitaminas /Suplementos</p>
+                                    </a>
+                                </div><div ng-repeat="item in categoryList" class="ng-scope slick-slide slick-active" data-slick-index="6" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide16" style="width: 139px;">
+                                    <a class="dashboard-category" ng-href="https://inkafarma.pe/deeplinks?category=600&amp;subcategory=601" ng-mouseenter="onMouseEnterCategory($event)" ng-mouseleave="onMouseLeaveCategory()" href="https://inkafarma.pe/deeplinks?category=600&amp;subcategory=601" tabindex="0">
+                                        <div class="category-circle">
+                                            <img class="center-block" src="https://inkafarma-category.s3-us-west-2.amazonaws.com/hair-dryer-1@3x.png" alt="category_Electrobelleza">
+                                        </div>
+                                        <p class="icon-title ng-binding">Electrobelleza</p>
+                                    </a>
+                                </div></div></div><!-- end ngRepeat: item in categoryList --><!-- end ngRepeat: item in categoryList --><!-- end ngRepeat: item in categoryList --><!-- end ngRepeat: item in categoryList --><!-- end ngRepeat: item in categoryList --><!-- end ngRepeat: item in categoryList --><!-- end ngRepeat: item in categoryList -->
+                            </slick>
+                        </div>
+                    </div><!-- end ngIf: categoryList.length && slickInitialCategories -->
+
+                    <div class="row">
+
+                        <!-- ngRepeat: dashboard in dashboardList --><div class="col-xs-12 padding-sm-0 bottom20 ng-scope" ng-repeat="dashboard in dashboardList" style="">
+                            <ng-template ng-switch="" on="dashboard.type">
+
+                                <!-- ngSwitchWhen: 2 -->
+
+                                <!-- ngSwitchWhen: 1 --><ng-template ng-switch-when="1" class="ng-scope">
+                                    <a ng-href="/deeplinks?product=024853" href="/deeplinks?product=024853">
+                                        <img class="center-block" width="100%" ng-src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-goldaululaD.jpg" alt="banner_1" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-goldaululaD.jpg">
+                                    </a>
+                                </ng-template><!-- end ngSwitchWhen: -->
+
+                                <!-- ngSwitchWhen: 4 -->
+
+                            </ng-template>
+
+                        </div><!-- end ngRepeat: dashboard in dashboardList --><div class="col-xs-12 padding-sm-0 bottom20 ng-scope" ng-repeat="dashboard in dashboardList">
+                            <ng-template ng-switch="" on="dashboard.type">
+
+                                <!-- ngSwitchWhen: 2 --><ng-template ng-switch-when="2" class="ng-scope">
+                                    <!-- ngIf: dashboard.list.productForSaleList.length > 0 --><product-list ng-if="dashboard.list.productForSaleList.length > 0" title="Nutrición Niños" products="dashboard.list.productForSaleList" deeplink="dashboard.list.deepLink" id-dashboard="true" flag-add-button="true" class="ng-scope ng-isolate-scope"><div class="product-list product-list-directive container">
+    <section class="carousel-items">
+        <div class="content">
+            <div class="row top15 title-container">
+                <h4 class="list-title font-semi-bold ng-binding">Nutrición Niños</h4>
+                <!-- ngIf: products.length > 6 -->
+            </div>
+
+            <!-- ngIf: slickConfig1Loaded --><slick class="slider row top30 ng-scope ng-isolate-scope slick-initialized slick-slider" settings="slickConfig" ng-if="slickConfig1Loaded" style="display: block;">
+                <!-- ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products -->
+                <!-- ngRepeat: item in products --><!-- ngIf: idDashboard --><div aria-live="polite" class="slick-list"><div class="slick-track" style="opacity: 1; width: 972px; transform: translate3d(0px, 0px, 0px);" role="listbox"><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-current slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide20" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010802X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010802X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 61.70</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Nan 3 Optipro Desarrollo</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">LATA DE 800 GRAMOS</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide21" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/012003X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/012003X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 52.61</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Nido Protectus Polvo Etapa 1+</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">LATA DE 1600 GRAMOS</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide22" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/024414X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/024414X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 97.00</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Babylac Pro 3 Neuro Advance</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">LATA DE 1800 GRAMOS</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="3" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide23" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/024853X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/024853X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 135.89</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Progress Gold 3 Alula</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">LATA DE 1800 GRAMOS</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide24" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/025868X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/025868X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 149.89</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Enfagrow Premium Pro Mental Sa...</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">CAJA DE 2.2 KG</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="5" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide25" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/025888X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/025888X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 79.90</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Enfagrow Premium Pro Mental Pr...</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">CAJA DE 1.1 KG</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div></div></div><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products -->
+            </slick><!-- end ngIf: slickConfig1Loaded -->
+        </div>
+    </section>
+</div></product-list><!-- end ngIf: dashboard.list.productForSaleList.length > 0 -->
+                                </ng-template><!-- end ngSwitchWhen: -->
+
+                                <!-- ngSwitchWhen: 1 -->
+
+                                <!-- ngSwitchWhen: 4 -->
+
+                            </ng-template>
+
+                        </div><!-- end ngRepeat: dashboard in dashboardList --><div class="col-xs-12 padding-sm-0 bottom20 ng-scope" ng-repeat="dashboard in dashboardList">
+                            <ng-template ng-switch="" on="dashboard.type">
+
+                                <!-- ngSwitchWhen: 2 -->
+
+                                <!-- ngSwitchWhen: 1 --><ng-template ng-switch-when="1" class="ng-scope">
+                                    <a ng-href="/deeplinks?category=1&amp;subcategory=259" href="/deeplinks?category=1&amp;subcategory=259">
+                                        <img class="center-block" width="100%" ng-src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-plenitudD.jpg" alt="banner_3" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-plenitudD.jpg">
+                                    </a>
+                                </ng-template><!-- end ngSwitchWhen: -->
+
+                                <!-- ngSwitchWhen: 4 -->
+
+                            </ng-template>
+
+                        </div><!-- end ngRepeat: dashboard in dashboardList --><div class="col-xs-12 padding-sm-0 bottom20 ng-scope" ng-repeat="dashboard in dashboardList">
+                            <ng-template ng-switch="" on="dashboard.type">
+
+                                <!-- ngSwitchWhen: 2 --><ng-template ng-switch-when="2" class="ng-scope">
+                                    <!-- ngIf: dashboard.list.productForSaleList.length > 0 --><product-list ng-if="dashboard.list.productForSaleList.length > 0" title="Cuidado Adulto" products="dashboard.list.productForSaleList" deeplink="dashboard.list.deepLink" id-dashboard="true" flag-add-button="true" class="ng-scope ng-isolate-scope"><div class="product-list product-list-directive container">
+    <section class="carousel-items">
+        <div class="content">
+            <div class="row top15 title-container">
+                <h4 class="list-title font-semi-bold ng-binding">Cuidado Adulto</h4>
+                <!-- ngIf: products.length > 6 --><div ng-if="products.length > 6" class="ng-scope" style="">
+                    <!-- ngIf: !deeplink --><button type="button" class="btn btn-default text-green ng-scope" ng-if="!deeplink" ng-click="$root.closeModals(); setViewMore(viewMore,title)"> Ver más</button><!-- end ngIf: !deeplink -->
+                    <!-- ngIf: deeplink -->
+                </div><!-- end ngIf: products.length > 6 -->
+            </div>
+
+            <!-- ngIf: slickConfig1Loaded --><slick class="slider row top30 ng-scope ng-isolate-scope slick-initialized slick-slider" settings="slickConfig" ng-if="slickConfig1Loaded" style="display: block;"><button type="button" data-role="none" class="slick-prev slick-arrow slick-disabled" aria-label="Previous" role="button" aria-disabled="true" style="">Previous</button>
+                <!-- ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: !idDashboard --><!-- end ngRepeat: item in products -->
+                <!-- ngRepeat: item in products --><!-- ngIf: idDashboard --><div aria-live="polite" class="slick-list"><div class="slick-track" style="opacity: 1; width: 1296px; transform: translate3d(0px, 0px, 0px);" role="listbox"><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-current slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide30" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/003784X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/003784X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 23.90</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Ropa Interior RealFit Mujer Pl...</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">BOLSA DE 8UN</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide31" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/008753X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/008753X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 52.90</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Pañal Adulto Plenitud Protect ...</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">BOLSA DE 20UN</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide32" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010159X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010159X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 59.90</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Pañal Adulto Plenitud Protect ...</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">BOLSA DE 20UN</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="3" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide33" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010331X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010331X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 21.90</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Ropa Interior Plenitud Protect...</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">BOLSA DE 8UN</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock --><ng-container ng-if="productData.disabledProduct || productData.presentationStock" ng-disabled="disable" class="ng-scope"><span class="button-disabled">agotado</span></ng-container><!-- end ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide34" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010332X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010332X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 19.90</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Ropa Interior Plenitud Protect...</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">BOLSA DE 8UN</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide slick-active" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="5" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide35" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010622X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010622X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 38.00</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Pañal para Adulto Plenitud Cla...</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">BOLSA DE 20UN</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="6" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide36" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010623X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/010623X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 48.00</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Pañal para Adulto Plenitud Cla...</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">BOLSA DE 20UN</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div><div class="col-sm-2 product-list-item ng-scope product-height-medium slick-slide" ng-class="{'product-height-high': flagAddButton &amp;&amp; flagListWidthLimitOfferTime, 'product-height-medium': !flagAddButton || !flagListWidthLimitOfferTime}" ng-repeat="item in products" ng-if="idDashboard" data-slick-index="7" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide37" style="width: 162px;">
+                    <product product="item" flag-add-button="flagAddButton" class="ng-isolate-scope"><div class="product">
+  <section class="product-content top30 bottom30">
+    <div class="product-item">
+
+      <div class="product-information" ng-click="$root.openProductDetailView(productData)">
+        <div class="product-img">
+          <!-- ngIf: productData.pathImage --><img ng-if="productData.pathImage" class="center-block img-responsive ng-scope" ng-src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/700558X.png" onerror="this.src='resources/images/load-image.png'" alt="load-image" src="https://s3-us-west-2.amazonaws.com/inkafarmaproductimages/newimages/700558X.png" style=""><!-- end ngIf: productData.pathImage -->
+          <!-- ngIf: !productData.pathImage -->
+        </div>
+        <!-- ngIf: productData.fractionatedSelected -->
+        <!-- ngIf: !productData.fractionatedSelected --><h4 ng-if="!productData.fractionatedSelected" class="top30 font-semi-bold product-price ng-binding ng-scope" style="">
+          S/ 6.50</h4><!-- end ngIf: !productData.fractionatedSelected -->
+        <h5 class="top15 font-title ng-binding">Apósito Practipañal Plenitud</h5>
+        <p class="text-muted top5">
+          <small class="ng-binding">BOLSA DE 20UN</small>
+        </p>
+      </div>
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="button-interaction ng-scope" style="">
+        <button class="btn btn-add top5">
+          <!-- ngIf: productData.disabledProduct || productData.presentationStock -->
+          <!-- ngIf: !productData.disabledProduct && !productData.presentationStock --><ng-container ng-if="!productData.disabledProduct &amp;&amp; !productData.presentationStock" class="ng-scope">
+            <!-- ngIf: !productData.itemInCart && !productData.disabledProduct --><span ng-if="!productData.itemInCart &amp;&amp; !productData.disabledProduct" class="button-add-product ng-scope" ng-click="addToCartProduct(productData, $event)">agregar</span><!-- end ngIf: !productData.itemInCart && !productData.disabledProduct -->
+            <!-- ngIf: productData.itemInCart -->
+          </ng-container><!-- end ngIf: !productData.disabledProduct && !productData.presentationStock -->
+
+        </button>
+      </div><!-- end ngIf: flagAddButton -->
+
+      <!-- ngIf: flagAddButton --><div ng-if="flagAddButton" class="timedown_box ng-scope" style="">
+        <!-- ngIf: validateLimitOffertTime(productData) -->
+      </div><!-- end ngIf: flagAddButton -->
+
+    </div>
+  </section>
+</div></product>
+                </div></div></div><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products --><!-- ngIf: idDashboard --><!-- end ngIf: idDashboard --><!-- end ngRepeat: item in products -->
+            <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="" aria-disabled="false">Next</button></slick><!-- end ngIf: slickConfig1Loaded -->
+        </div>
+    </section>
+</div></product-list><!-- end ngIf: dashboard.list.productForSaleList.length > 0 -->
+                                </ng-template><!-- end ngSwitchWhen: -->
+
+                                <!-- ngSwitchWhen: 1 -->
+
+                                <!-- ngSwitchWhen: 4 -->
+
+                            </ng-template>
+
+                        </div><!-- end ngRepeat: dashboard in dashboardList --><div class="col-xs-12 padding-sm-0 bottom20 ng-scope" ng-repeat="dashboard in dashboardList">
+                            <ng-template ng-switch="" on="dashboard.type">
+
+                                <!-- ngSwitchWhen: 2 -->
+
+                                <!-- ngSwitchWhen: 1 --><ng-template ng-switch-when="1" class="ng-scope">
+                                    <a ng-href="">
+                                        <img class="center-block" width="100%" ng-src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-oftalmicasD.gif" alt="banner_5" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/1208-oftalmicasD.gif">
+                                    </a>
+                                </ng-template><!-- end ngSwitchWhen: -->
+
+                                <!-- ngSwitchWhen: 4 -->
+
+                            </ng-template>
+
+                        </div><!-- end ngRepeat: dashboard in dashboardList --><div class="col-xs-12 padding-sm-0 bottom20 ng-scope" ng-repeat="dashboard in dashboardList">
+                            <ng-template ng-switch="" on="dashboard.type">
+
+                                <!-- ngSwitchWhen: 2 -->
+
+                                <!-- ngSwitchWhen: 1 --><ng-template ng-switch-when="1" class="ng-scope">
+                                    <a ng-href="">
+                                        <img class="center-block" width="100%" ng-src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/0108-bolsasD.jpg" alt="banner_6" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/0108-bolsasD.jpg">
+                                    </a>
+                                </ng-template><!-- end ngSwitchWhen: -->
+
+                                <!-- ngSwitchWhen: 4 -->
+
+                            </ng-template>
+
+                        </div><!-- end ngRepeat: dashboard in dashboardList --><div class="col-xs-12 padding-sm-0 bottom20 ng-scope" ng-repeat="dashboard in dashboardList">
+                            <ng-template ng-switch="" on="dashboard.type">
+
+                                <!-- ngSwitchWhen: 2 -->
+
+                                <!-- ngSwitchWhen: 1 --><ng-template ng-switch-when="1" class="ng-scope">
+                                    <a ng-href="">
+                                        <img class="center-block" width="100%" ng-src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/0508-beneficiosinkaD.jpg" alt="banner_7" src="https://s3-us-west-2.amazonaws.com/inkafarma-banners/0508-beneficiosinkaD.jpg">
+                                    </a>
+                                </ng-template><!-- end ngSwitchWhen: -->
+
+                                <!-- ngSwitchWhen: 4 -->
+
+                            </ng-template>
+
+                        </div><!-- end ngRepeat: dashboard in dashboardList -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>
+<main-footer class="ng-scope ng-isolate-scope"><footer class="show-footer">
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-3 col-md-2 row-content">
+            <div class="row">
+                <div class="col-xs-12 footer-collapsed" ng-click="collapse.one = !collapse.one">
+                    <p class="footer-title">¿Cómo comprar? <img class="visible-xs-inline-block" height="10" src="resources/images/footer/arrow-top.png" alt="arrow">
+                    </p>
+                </div>
+                <div class="col-xs-12 footer-collapsed-content in collapse" uib-collapse="collapse.one" aria-expanded="true" aria-hidden="false">
+                    <p><a ng-click="$root.openCostumerCareSidebar()">Ayuda para tus compras</a></p>
+                    <p><a href="/zonas-cobertura">Zona de cobertura</a></p>
+                    <p class="hidden"><a>Seguimiento de pedidos</a></p>
+                    <p class="hidden"><a>Cambios y devoluciones</a></p>
+                    <p><a ng-click="$root.openCostumerCareQuestionsSidebar()">Preguntas frecuentes</a></p>
+                    <p class="hidden"><a href="">Contáctanos</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-3 col-md-2 row-content">
+            <div class="row">
+                <div class="col-xs-12 footer-collapsed" ng-click="collapse.two = !collapse.two">
+                    <p class="footer-title">Promociones Online <img class="visible-xs-inline-block" height="10" src="resources/images/footer/arrow-top.png" alt="arrow"></p>
+                </div>
+                <div class="col-xs-12 footer-collapsed-content in collapse" uib-collapse="collapse.two" aria-expanded="true" aria-hidden="false">
+                    <p class="hidden"><a href="">Paga menos en tu primera compra</a></p>
+                    <p><a href="/bonus">Recomiendanos y gana</a></p>
+                    <p><a href="/legales">Legales</a></p>
+                    <p class="hidden"><a href="">Cupomanía</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 row-content">
+            <div class="row">
+                <div class="col-xs-12 footer-collapsed" ng-click="collapse.three = !collapse.three">
+                    <p class="footer-title">Inkafarma <img class="visible-xs-inline-block" height="10" src="resources/images/footer/arrow-top.png" alt="arrow"></p>
+                </div>
+                <div class="col-xs-12 footer-collapsed-content in collapse" uib-collapse="collapse.three" aria-expanded="true" aria-hidden="false">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <p><a ng-href="https://www.inkafarma.com.pe/quienes-somos/inkafarma" target="_blank" href="https://www.inkafarma.com.pe/quienes-somos/inkafarma">Conócenos</a></p>
+                            <p><a ng-href="https://xu7jp.app.goo.gl/oom2" target="_blank" href="https://xu7jp.app.goo.gl/oom2">Inkafarma Móvil</a></p>
+                            <p><a ng-href="https://www.inkafarma.com.pe/contactanos/ubica-tu-botica" target="_blank" href="https://www.inkafarma.com.pe/contactanos/ubica-tu-botica">Ubica tu botica</a></p>
+                            <p><a ng-href="https://www.inkafarma.com.pe/contactanos/delivery" target="_blank" href="https://www.inkafarma.com.pe/contactanos/delivery">Call Center</a></p>
+                            <p><a ng-href="https://www.inkafarma.com.pe/terminos-inkaclub/informacion-y-condiciones" target="_blank" href="https://www.inkafarma.com.pe/terminos-inkaclub/informacion-y-condiciones">Inkaclub</a></p>
+                            <p><a ng-href="https://www.inkafarma.com.pe/quienes-somos/ganadores" target="_blank" href="https://www.inkafarma.com.pe/quienes-somos/ganadores">Premios y sorteos</a></p>
+                            <p><a ng-href="https://arco.inkafarma.com.pe/" target="_blank" href="https://arco.inkafarma.com.pe/">Derechos ARCO</a></p>
+                            <p><a ng-href="https://www.inkafarma.com.pe/quienes-somos/eventos-corporativos" target="_blank" href="https://www.inkafarma.com.pe/quienes-somos/eventos-corporativos">Actividades y otros</a></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <p><a ng-href="https://www.inkafarma.com.pe/blogdelasalud" target="_blank" href="https://www.inkafarma.com.pe/blogdelasalud">Blog de cuidado y salud</a></p>
+                            <p><a ng-href="https://www.inkafarma.com.pe/nuestros-servicios/atencion-farmaceutica" target="_blank" href="https://www.inkafarma.com.pe/nuestros-servicios/atencion-farmaceutica">Atención farmacéutica</a></p>
+                            <p><a ng-href="https://www.inkafarma.com.pe/novedades-y-promociones/ubica-dermacenter-aqui" target="_blank" href="https://www.inkafarma.com.pe/novedades-y-promociones/ubica-dermacenter-aqui">Nuestros Dermacenters</a></p>
+                            <p><a ng-href="https://www.inkafarma.com.pe/nuestros-servicios/preparacion-de-recetas" target="_blank" href="https://www.inkafarma.com.pe/nuestros-servicios/preparacion-de-recetas">Preparación de recetas</a></p>
+                            <p><a ng-href="https://www.inkafarma.com.pe/nuestros-servicios/salud-sin-fronteras" target="_blank" href="https://www.inkafarma.com.pe/nuestros-servicios/salud-sin-fronteras">Salud sin fronteras</a></p>
+                            <p><a ng-href="https://www.inkafarma.com.pe/nuestros-servicios/convenios-corporativos" target="_blank" href="https://www.inkafarma.com.pe/nuestros-servicios/convenios-corporativos">Convenios con empresas</a></p>
+                            <p><a ng-href="http://inkafarma.paperless.com.pe/BoletaInkafarma/" target="_blank" href="http://inkafarma.paperless.com.pe/BoletaInkafarma/">Comprobante electrónico</a></p>
+                            <p><a ng-href="https://legales-inkafarma.s3-us-west-2.amazonaws.com/terminos_y_condiciones.html" target="_blank" href="https://legales-inkafarma.s3-us-west-2.amazonaws.com/terminos_y_condiciones.html">Términos y Condiciones</a></p>
+                            <p><a ng-href="https://legales-inkafarma.s3-us-west-2.amazonaws.com/politica_privacidad_general_compras.html" target="_blank" href="https://legales-inkafarma.s3-us-west-2.amazonaws.com/politica_privacidad_general_compras.html">Políticas de Privacidad</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-2 row-content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="footer-title">Síguenos en</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-12">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-12">
+                            <p><a ng-href="https://www.facebook.com/inkafarmaperu" target="_blank" href="https://www.facebook.com/inkafarmaperu"><img class="footer-social" height="18" src="resources/images/footer/facebook.png" alt="icon">Facebook</a></p>
+                        </div>
+                        <div class="col-xs-6 col-sm-12">
+                            <p><a ng-href="https://www.linkedin.com/company/inkafarma/" target="_blank" href="https://www.linkedin.com/company/inkafarma/"><img class="footer-social" height="18" src="resources/images/footer/linkedin.png" alt="icon">LinkedIn</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-12">
+                    <a ng-href="https://reclamos.inkafarma.com.pe/" target="_blank" href="https://reclamos.inkafarma.com.pe/">
+                        <div class="text-center footer-book">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-12">
+                                    <img height="30" src="resources/images/footer/book.png" alt="icon">
+                                </div>
+                                <div class="col-xs-8 col-sm-12">
+                                    <p>Libro de reclamaciones</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-2 row-content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="footer-title">Descarga el app</p>
+                </div>
+                <div class="col-xs-6 col-md-12">
+                    <a ng-href="https://play.google.com/store/apps/details?id=com.globant.inkafarma" target="_blank" href="https://play.google.com/store/apps/details?id=com.globant.inkafarma"><p>Android</p><img class="footer-app" src="resources/images/footer/google-play.png" alt="icon"></a>
+                </div>
+                <div class="col-xs-6 col-md-12">
+                    <a ng-href="https://itunes.apple.com/app/id1418660567" target="_blank" href="https://itunes.apple.com/app/id1418660567"><p>iOS</p><img class="footer-app" src="resources/images/footer/app-store.png" alt="icon"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center footer-copyright">
+            <p>Copyright © Inkafarma 2018 <span>Todos los derechos reservados</span></p>
+        </div>
+    </div>
+</footer></main-footer></div>
+    </section>
+</div>
+
+<script src="scripts/5e7e10bc.modules.js"></script>
+
+
+<script src="scripts/37b1816a.scripts.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-117750347-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117750347-1');
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59P23D5" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<iframe src="https://onesignal.com/webPushAnalytics" style="display: none;"></iframe><div id="onesignal-popover-container" class="onesignal-popover-container onesignal-reset slide-down"><div id="onesignal-popover-dialog" class="onesignal-popover-dialog"><div id="normal-popover"><div class="popover-body"><div class="popover-body-icon"><img alt="notification icon" class="" src="https://img.onesignal.com/t/1af68f8e-d567-4ac5-a017-5748c74babde.jpg"></div><div class="popover-body-message">Para conseguir precios bajos aún más bajos ¡dale aceptar! 👌😉</div><div class="clearfix"></div></div><div class="popover-footer"><button id="onesignal-popover-allow-button" class="align-right primary popover-button">Aceptar</button><button id="onesignal-popover-cancel-button" class="align-right secondary popover-button">no. gracias</button><div class="clearfix"></div></div></div></div></div></body></html>

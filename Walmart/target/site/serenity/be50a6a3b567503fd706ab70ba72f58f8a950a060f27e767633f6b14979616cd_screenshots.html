@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-08-2019 23:42</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-08-2019 10:53</span>
     <br style="clear:left"/>
 </div>
 
@@ -154,9 +154,9 @@ Para verificar el articulo en el carrito de compras
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Compra de articulo en Pagina Web
+                                <span class="success-color">Compra de articulo en Pagina Web
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -172,111 +172,40 @@ Para verificar el articulo en el carrito de compras
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">Given que Jonathan esta en la Pagina Inkafarma de Peru<br>When el quiere buscar el "articulo" y comprarlo en la pagina<br>Then deberia de ver el articulo en carrito de compras</div>
+        <div class="scenario">Given que Jonathan esta en la Pagina Inkafarma de Peru<br>When el quiere buscar el "&lt;Articulo&gt;" y comprarlo en la pagina<br>Then deberia de ver el "&lt;Articulo&gt;" en carrito de compras</div>
     </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
-            <div class="screenshotFailure panel panel-danger">
-
-                        <div class="panel-heading title="Element should be enabled exception: The following error occurred: Expected enabled element was not enabled">
-                            Element should be enabled exception: The following error occurred: Expected enabled element was not enabled
-                        </div>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger" data-toggle="modal"
-                            data-target="#stacktraceModal-overall">
-                        View details
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                    <h5>
-                                        <pre>The following error occurred: Expected enabled element was not enabled</pre>
-                                    </h5>
-                                    mx.com.walmart.compra.capacitacion.task.BuscarProducto.performAs(BuscarProducto.java
-                                    :24) <br>
-                                    mx.com.walmart.compra.capacitacion.stepdefinitions.CompraWalmartStepDefinitions.elQuiereBuscarElYComprarloEnLaPagina(CompraWalmartStepDefinitions.java
-                                    :45) <br>
-                                    cucumber.runner.Runner.runPickle(Runner.java
-                                    :80) <br>
-                                    org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java
-                                    :86) <br>
-                                    org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java
-                                    :38) <br>
-                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
-                                    :538) <br>
-                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
-                                    :760) <br>
-                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java
-                                    :460) <br>
-                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java
-                                    :206) <br>
-                            </div>
-
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"
-                                            aria-label="Close"><span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <h4 class="modal-title" id="stacktraceModalLabel">
-                                        Caused by: org.openqa.selenium.TimeoutException
-                                    </h4>
-                                </div>
-                                <div class="modal-body">
-                                        <pre>Expected condition failed: waiting for By.xpath: //ng-container/span[contains(text(),'agregar')] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
-                                    <pre>
-                                        mx.com.walmart.compra.capacitacion.task.BuscarProducto.performAs(BuscarProducto.java :24) <br>
-                                        mx.com.walmart.compra.capacitacion.stepdefinitions.CompraWalmartStepDefinitions.elQuiereBuscarElYComprarloEnLaPagina(CompraWalmartStepDefinitions.java :45) <br>
-                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
-                                        org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java :86) <br>
-                                        org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java :38) <br>
-                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :538) <br>
-                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :760) <br>
-                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java :460) <br>
-                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java :206) <br>
-                                    </pre>
-                                </div>
-
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="panel-body">
-                    <a href="pagesource6123878328761150008.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
-                </div>
-            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="6c0eb3ea14566dd2f41e14cd86c2d096f2c04829f83251999dfaaf0e2d809af1.png" title="Given que Jonathan esta en la Pagina Inkafarma de Peru" width="1034"/>
-                <img src="6c0eb3ea14566dd2f41e14cd86c2d096f2c04829f83251999dfaaf0e2d809af1.png" title="jonathan opens the Infarma home page" width="1034"/>
-                <img src="6c0eb3ea14566dd2f41e14cd86c2d096f2c04829f83251999dfaaf0e2d809af1.png" title="When el quiere buscar el &quot;articulo&quot; y comprarlo en la pagina" width="1034"/>
-                <img src="73edd125782811a924e8aa8e37aed86de060ea8d9ad37126cede88e9d0711ebd.png" title="jonathan clicks on Ventana uno" width="1034"/>
-                <img src="cdd356da17368f712faeabb1870599b05d51a869d6f3931ca9eecd4ffea8ccb3.png" title="jonathan clicks on Ventana uno" width="1034"/>
-                <img src="dcecb50f67a147dcc0ed50813617f6b5b0be241d9791095dcb2005b74b21ddf8.png" title="jonathan clicks on Buscar producto en Inicio" width="1034"/>
-                <img src="4130129b39e7f43291509654e5d4ba9f925499d131f444180990844196926e9c.png" title="jonathan clicks on Buscar producto en Inicio" width="1034"/>
-                <img src="61d30eba7717b26f031dc8e79b894efcc95cfa493153370f97252135de313432.png" title="jonathan enters 'articulo' into Buscar producto en Inicio" width="1034"/>
-                <img src="e6c98fd041e34b4518b81bb1d5927cf5374bff6907d13f7800c5515bd49ee5a3.png" title="jonathan enters 'articulo' into Buscar producto en Inicio" width="1034"/>
-                <img src="ccbcb2f79edc671f6a5861db4dfea725803b302d17b737c872aa293292d2615e.png" title="jonathan clicks on Buscar Producto" width="1034"/>
-                <img src="17dfe659f2e961b8294ed5e0dbb4aec799265549099fa8fef27fbe19df17bd09.png" title="jonathan clicks on Buscar Producto" width="1034"/>
-                <img src="e6d0e0e208ca46485c8ca7909ebf91d6fd6ab452ff8ff3d0a904d3229cd4133e.png" title="jonathan clicks on Agregar Producto" width="1034"/>
-                <img src="591bd54b46100d660ab7c34413c25adfc75501537d6992a6bdf80898da728616.png" title="jonathan clicks on Agregar Producto: <span class='failing-color'>FAILURE</span>" width="1034"/>
+                <img src="fd2bba1557322d4696462f3c58c3bebb2dcf31764f5708ddf8a2712abf93039b.png" title="Compra de articulo en Pagina Web #1: {Articulo=Antitranspirante Dermoaclarant en Spray Dove 48 horas
+Desodorante(Frasco 150ml)}" width="1034"/>
+                <img src="1d96c065fbed9eed2979392a7125e84d15326270caa27771a8eaf119d600c7b7.png" title="Given que Jonathan esta en la Pagina Inkafarma de Peru" width="1034"/>
+                <img src="1d96c065fbed9eed2979392a7125e84d15326270caa27771a8eaf119d600c7b7.png" title="jonathan opens the Infarma home page" width="1034"/>
+                <img src="5e0b72fa881a28476d397074676f06cd17586342fc1255ef6d7698f2c99e3783.png" title="When el quiere buscar el &quot;Antitranspirante Dermoaclarant en Spray Dove 48 horas
+Desodorante(Frasco 150ml)&quot; y comprarlo en la pagina" width="1034"/>
+                <img src="9e5c9c95b0621d33a13546fa3cc1018c8173ee1f9e7fc432dee0b14a8fb1870d.png" title="When el quiere buscar el &quot;Antitranspirante Dermoaclarant en Spray Dove 48 horas
+Desodorante(Frasco 150ml)&quot; y comprarlo en la pagina" width="1034"/>
+                <img src="5e0b72fa881a28476d397074676f06cd17586342fc1255ef6d7698f2c99e3783.png" title="jonathan clicks on Ventana uno" width="1034"/>
+                <img src="aa28859e3d1b8bddfd34ef4c8b8e0b16ee5ebdf23fcc993822d860619c4d36be.png" title="jonathan clicks on Ventana uno" width="1034"/>
+                <img src="9336abc2334a33806d3953dd4a04ce0ed2e487b4c785354b3a5fed6f0b7ea5e6.png" title="jonathan clicks on Buscar producto en Inicio" width="1034"/>
+                <img src="eafa4f09a4eb3db0b647bf39587cdb5ac32733b66558221982454465ddffacc4.png" title="jonathan clicks on Buscar producto en Inicio" width="1034"/>
+                <img src="5c8371f9f96fafe7a14a47e0125e8ec777a3c2ddde8bf4529aefad8ec741ebc3.png" title="jonathan enters 'Antitranspirante Dermoaclarant en Spray Dove 48 horas
+Desodorante(Frasco 150ml)' into Buscar producto en Inicio" width="1034"/>
+                <img src="f4e5db98139b265e763ad7a3350f591b9b806bb2dc468e1da1e5c2b34003ca70.png" title="jonathan enters 'Antitranspirante Dermoaclarant en Spray Dove 48 horas
+Desodorante(Frasco 150ml)' into Buscar producto en Inicio" width="1034"/>
+                <img src="f1b7a483721262d95a229fad6bf8cf8851d8040fb8ffa5faeb1870c46e0683b0.png" title="jonathan clicks on Buscar Producto" width="1034"/>
+                <img src="3086ff96f16363dcf02daa0e69e3faa4cbed470d4e6f51214936472b59608fed.png" title="jonathan clicks on Buscar Producto" width="1034"/>
+                <img src="46fc02bff8d49c0e31ca3aa77f93bd94f7749dfeea045f45f57abf2f9bb68ed4.png" title="jonathan clicks on Agregar Producto" width="1034"/>
+                <img src="9e5c9c95b0621d33a13546fa3cc1018c8173ee1f9e7fc432dee0b14a8fb1870d.png" title="jonathan clicks on Agregar Producto" width="1034"/>
+                <img src="9e5c9c95b0621d33a13546fa3cc1018c8173ee1f9e7fc432dee0b14a8fb1870d.png" title="jonathan clicks on Producto en Carrito" width="1034"/>
+                <img src="54b4e0fb26ea2444dcca452e945e6a1e96e7cb11762e1a53b8de06c530802ea4.png" title="Then deberia de ver el &quot;Antitranspirante Dermoaclarant en Spray Dove 48 horas
+Desodorante(Frasco 150ml)&quot; en carrito de compras" width="1034"/>
+                <img src="fd2bba1557322d4696462f3c58c3bebb2dcf31764f5708ddf8a2712abf93039b.png" title="Then deberia de ver el &quot;Antitranspirante Dermoaclarant en Spray Dove 48 horas
+Desodorante(Frasco 150ml)&quot; en carrito de compras" width="1034"/>
+                <img src="4fea74f95af887bc179d5d33f03ad6dda94359da53134ac9fb89a59563436b37.png" title="Then verificar producto should be 'Antitranspirante Dermoaclarant en Spray Dove 48 horas\nDesodorante(Frasco 150ml)'" width="1034"/>
+                <img src="fd2bba1557322d4696462f3c58c3bebb2dcf31764f5708ddf8a2712abf93039b.png" title="Then verificar producto should be 'Antitranspirante Dermoaclarant en Spray Dove 48 horas\nDesodorante(Frasco 150ml)': <span class='success-color'>SUCCESS</span>" width="1034"/>
             </div>
         </div>
 

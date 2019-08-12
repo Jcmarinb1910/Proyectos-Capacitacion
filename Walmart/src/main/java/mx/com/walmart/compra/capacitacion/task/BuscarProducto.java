@@ -15,8 +15,8 @@ public class BuscarProducto implements Task {
 	
 	private DetalleArticu Detalle;
 	
-	public BuscarProducto(DetalleArticu Producto) {
-		this.Detalle = Producto;
+	public BuscarProducto(DetalleArticu Articulo) {
+		this.Detalle = Articulo;
 	}
 
 	@Override
@@ -29,8 +29,8 @@ public class BuscarProducto implements Task {
 				Click.on(Producto.ProductoEnCarrito));	
 	}
 
-	public static Performable the(DetalleArticu Producto) {
-		return Tasks.instrumented(BuscarProducto.class, Producto);
+	public static Performable the(DetalleArticu Articulo) {
+		return Tasks.instrumented(BuscarProducto.class, Articulo);
 	}
 
 

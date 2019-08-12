@@ -41,14 +41,13 @@ public class CompraWalmartStepDefinitions {
 
 
 	@When("^el quiere buscar el \"([^\"]*)\" y comprarlo en la pagina$")
-	public void elQuiereBuscarElYComprarloEnLaPagina(DetalleArticu Producto) throws Exception {
-		Jonathan.wasAbleTo(BuscarProducto.the(Producto));	
+	public void elQuiereBuscarElYComprarloEnLaPagina(DetalleArticu Articulo) throws Exception {
+		Jonathan.wasAbleTo(BuscarProducto.the(Articulo));	
 	}
 
-
-	@Then("^deberia de ver el articulo en carrito de compras$")
-	public void paraMirarElArticuloEnCarritoDeCompras(String articulo) throws Exception {
-		Jonathan.should(seeThat(VerificarProducto.visualized(),Matchers.equalTo(articulo)));
+	@Then("^deberia de ver el \"([^\"]*)\" en carrito de compras$")
+	public void deberiaDeVerElEnCarritoDeCompras(DetalleArticu Articulo) throws Exception {
+		Jonathan.should(seeThat(VerificarProducto.visualized(),Matchers.equalTo(Articulo.getArticulo())));
     }
 
 }

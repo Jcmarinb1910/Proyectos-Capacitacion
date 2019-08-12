@@ -15,16 +15,12 @@ public class VerificarProducto implements Question<String> {
 		sb.deleteCharAt(32);
 		sb.deleteCharAt(32);
 		sb.deleteCharAt(32);*/
-		return Text.of(Producto.NombreProducto).viewedBy(actor).asString();
-		
-		
+		return Text.of(Producto.NombreProducto).viewedBy(actor).asString();		
 	}
 	
 
 	public static VerificarProducto visualized() {
-		// TODO Auto-generated method stub
 		return new VerificarProducto();
 	}
-
 }
 
